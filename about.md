@@ -24,6 +24,6 @@ During my MBA, one problem kept showing up: millions struggle with mental health
 ---
 
 **Let’s connect**  
-- Email: [you@yourdomain.com](mailto:you@yourdomain.com)  
-- LinkedIn: [linkedin.com/in/yourhandle](https://linkedin.com/in/yourhandle)  
+- Email: vora.tawee@gmail.com (mailto:vora.tawee@gmail.com)  
+- LinkedIn: (https://www.linkedin.com/in/voranun-t/) 
 - Home: [voratawee.github.io](/)
