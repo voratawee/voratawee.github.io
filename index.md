@@ -8,8 +8,8 @@ title: Home
   <p>From Bangkok to Silicon Valley dreams — I build AI products for wellness and performance. Currently scaling <strong>BloomPal</strong>, an AI companion that turns tiny calendar gaps into science-backed micro-rituals.</p>
   <div class="cta">
     <a class="btn primary" href="/about/">About me</a>
-    <a class="btn" href="mailto:you@yourdomain.com">Contact</a>
-    <a class="btn" href="https://linkedin.com/in/yourhandle" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="mailto:vora.tawee@gmail.com">Contact</a>
+    <a class="btn" href="https://www.linkedin.com/in/voranun-t/" target="_blank" rel="noopener">LinkedIn</a>
   </div>
 </section>
 
