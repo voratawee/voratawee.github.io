@@ -3,16 +3,21 @@ layout: default
 title: Home
 ---
 
+<!-- HERO (text + photo, no buttons) -->
 <section class="hero">
-  <h1>Engineer · MBA · Founder</h1>
-  <p>From Bangkok to Silicon Valley dreams — I build AI products for wellness and performance. Currently scaling <strong>BloomPal</strong>, an AI companion that turns tiny calendar gaps into science-backed micro-rituals.</p>
-  <div class="cta">
-    <a class="btn primary" href="/about/">About me</a>
-    <a class="btn" href="mailto:vora.tawee@gmail.com">Email</a>
-    <a class="btn" href="https://www.linkedin.com/in/voranun-t/" target="_blank" rel="noopener">LinkedIn</a>
+  <div class="hero-grid hero-right"> <!-- change to hero-left if you want photo on the left -->
+    <div class="hero-copy">
+      <h1>Engineer · MBA · Founder</h1>
+      <p>From Bangkok to Silicon Valley dreams — I build AI products for wellness and performance. Currently scaling <strong>BloomPal</strong>, an AI companion that turns tiny calendar gaps into science-backed micro-rituals.</p>
+    </div>
+
+    <div class="hero-photo">
+      <img src="/assets/img/VoraHeadshot.png" alt="Portrait of Voranun Taweerutchana" class="avatar">
+    </div>
   </div>
 </section>
 
+<!-- FOCUS -->
 <section class="section">
   <div class="kicker">Focus</div>
   <h2>What I'm working on</h2>
@@ -28,25 +33,6 @@ title: Home
     <div class="card">
       <h3>Advising</h3>
       <p>Practical AI/ML product strategy: zero-to-one scopes, user research, and disciplined delivery.</p>
-    </div>
-  </div>
-</section>
-
-<section class="section alt">
-  <div class="kicker">Highlights</div>
-  <h2>Selected outcomes</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Operations at Scale</h3>
-      <p>Cut a quotation flow from 7–14 days to under 1 day, boosting satisfaction ~90%.</p>
-    </div>
-    <div class="card">
-      <h3>AI-Driven Product</h3>
-      <p>Stress-pattern understanding, 500+ interviews & tests, strong early enthusiasm.</p>
-    </div>
-    <div class="card">
-      <h3>Mentorship</h3>
-      <p>Coaching contributed to improved semifinalist outcomes for founders.</p>
     </div>
   </div>
 </section>
