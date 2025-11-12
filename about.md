@@ -32,6 +32,6 @@ Today, I’m a founder and a mother building products that help people thrive. I
 ---
 
 **Let’s connect**  
-- Email: [you@yourdomain.com](mailto:you@yourdomain.com)  
-- LinkedIn: [linkedin.com/in/yourhandle](https://linkedin.com/in/yourhandle)  
-- BloomPal: [bloompal.ai](https://example.com)
+- Email: [vora.tawee@gmail.com](mailto:vora.tawee@gmail.com)  
+- LinkedIn: https://www.linkedin.com/in/voranun-t/
+- BloomPal: https://bloompal-wellness.com/
