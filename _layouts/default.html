@@ -6,7 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ page.title }} · Voranun Taweerutchana</title>
   <meta name="description" content="Engineer · MBA · Founder — Building AI for Wellness" />
-  <link rel="stylesheet" href="/assets/css/site.css" />
+  <!-- Use relative_url and a cache-buster to avoid stale CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/site.css?v=3' | relative_url }}" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
@@ -23,7 +24,7 @@
     </div>
   </header>
 
-  <main class="content">
+  <main class="content wrap">
     {{ content }}
   </main>
 
