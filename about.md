@@ -33,5 +33,5 @@ Today, I’m a founder and a mother building products that help people thrive. I
 
 **Let’s connect**  
 - Email: [vora.tawee@gmail.com](mailto:vora.tawee@gmail.com)  
-- LinkedIn: https://www.linkedin.com/in/voranun-t/
-- BloomPal: https://bloompal-wellness.com/
+- LinkedIn: [https://www.linkedin.com/in/voranun-t/](https://www.linkedin.com/in/voranun-t/)
+- BloomPal: [https://bloompal-wellness.com/](https://bloompal-wellness.com/)
