@@ -3,12 +3,14 @@ layout: default
 title: Home
 ---
 
-<!-- HERO (text + photo, no buttons) -->
 <section class="hero">
-  <div class="hero-grid hero-right"> <!-- change to hero-left if you want photo on the left -->
+  <div class="hero-grid hero-right">
     <div class="hero-copy">
       <h1>Engineer · MBA · Founder</h1>
       <p>From Bangkok to Silicon Valley dreams — I build AI products for wellness and performance. Currently scaling <strong>BloomPal</strong>, an AI companion that turns tiny calendar gaps into science-backed micro-rituals.</p>
+      <div class="cta">
+        <a class="btn primary" href="/about/">About me</a>
+      </div>
     </div>
 
     <div class="hero-photo">
@@ -17,7 +19,6 @@ title: Home
   </div>
 </section>
 
-<!-- FOCUS -->
 <section class="section">
   <div class="kicker">Focus</div>
   <h2>What I'm working on</h2>
