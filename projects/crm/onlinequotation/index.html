@@ -2,17 +2,7 @@
 layout: default
 title: Online Quotation System
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Online Quotation System · Projects</title>
-
-  <!-- Use your existing site style -->
-  <link rel="stylesheet" href="/assets/css/site.css">
-
-  <style>
+<style>
     /* page-only styling (safe) */
     .container {
       max-width: 900px;
@@ -41,21 +31,16 @@ title: Online Quotation System
       margin-bottom: 1rem;
     }
 
-    h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-
     .subtitle {
       color: #666;
       font-size: 1.1rem;
       margin-bottom: 3rem;
     }
 
-    section {
-      border-left: 3px solid #e5e5e5;
-      padding-left: 1.5rem;
-      margin-bottom: 3rem;
+    .project-section {
+  border-left: 3px solid #e5e5e5;
+  padding-left: 1.5rem;
+  margin-bottom: 3rem;
     }
 
     .label {
@@ -85,14 +70,6 @@ title: Online Quotation System
       display: block;
     }
   </style>
-</head>
-
-<body>
-      <div>
-        <a href="/">Home</a> ·
-        <a href="/about/">About</a> ·
-        <a href="/projects/">Projects</a>
-      </div>
 
   <main class="container">
     <span class="tag">CRM & Workflow Automation</span>
@@ -108,7 +85,7 @@ title: Online Quotation System
     </div>
 
     <!-- PROBLEM -->
-    <section>
+    <section class="project-section">
       <div class="label">The problem</div>
       <p>
         During rapid growth, installation partners relied on spreadsheets and phone calls.
@@ -117,7 +94,7 @@ title: Online Quotation System
     </section>
 
     <!-- APPROACH -->
-    <section>
+    <section class="project-section">
       <div class="label">My approach</div>
       <p>
         Instead of waiting for a long product roadmap, I mapped the bottlenecks, reused existing tools,
@@ -126,7 +103,7 @@ title: Online Quotation System
     </section>
 
     <!-- IMPACT -->
-    <section>
+    <section class="project-section">
       <div class="label">Impact</div>
 
       <div class="metrics">
@@ -155,10 +132,4 @@ title: Online Quotation System
 
     <p><a href="/projects/">← Back to all projects</a></p>
   </main>
-
-  <footer style="text-align:center;color:#999;padding:2rem;">
-    © 2025 Voranun Taweerutchana
-  </footer>
-</body>
-</html>
 
