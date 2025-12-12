@@ -4,23 +4,10 @@ title: Online Quotation System
 ---
 
 <style>
-  /* page-only styling */
   .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 3rem 2rem;
-  }
-
-  .hero {
-    border-radius: 14px;
-    overflow: hidden;
-    box-shadow: 0 8px 28px rgba(0,0,0,0.12);
-    margin: 2.5rem 0 3.5rem;
-  }
-
-  .hero img {
-    width: 100%;
-    display: block;
   }
 
   .tag {
@@ -38,6 +25,18 @@ title: Online Quotation System
     margin: 0.75rem 0 2.5rem;
   }
 
+  .hero {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+    margin: 2.5rem 0 3.5rem;
+  }
+
+  .hero img {
+    width: 100%;
+    display: block;
+  }
+
   .project-section {
     border-left: 3px solid #e5e5e5;
     padding-left: 1.5rem;
@@ -53,7 +52,7 @@ title: Online Quotation System
   }
 
   .skills-list {
-    margin: 1.5rem 0 2.5rem;
+    margin: 1.2rem 0 2.5rem;
     padding-left: 1.2rem;
   }
 
@@ -61,50 +60,45 @@ title: Online Quotation System
     margin-bottom: 0.6rem;
   }
 
-  .diagram {
-    margin: 2.5rem 0 3.5rem;
-    text-align: center;
-  }
-
-  .diagram img {
-    max-width: 720px;
+  /* Impact table */
+  .impact-table {
     width: 100%;
-    border-radius: 12px;
-    box-shadow: 0 6px 22px rgba(0,0,0,0.1);
+    border-collapse: collapse;
+    margin-top: 1.5rem;
   }
 
-  .diagram-caption {
-    font-size: 0.9rem;
+  .impact-table th {
+    text-align: left;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     color: #777;
-    margin-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #e5e5e5;
   }
 
-  .metrics {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    gap: 1rem;
-    margin: 1.5rem 0;
+  .impact-table td {
+    padding: 1rem 0;
+    border-bottom: 1px solid #f0f0f0;
+    vertical-align: top;
   }
 
-  .metric {
-    background: #f8f8f8;
-    padding: 1rem;
-    border-radius: 8px;
-    text-align: center;
+  .impact-table td strong {
+    font-weight: 600;
   }
 
-  .metric strong {
-    font-size: 1.6rem;
+  .impact-highlight {
+    font-weight: 600;
+    color: #111;
+  }
+
+  .learning {
+    margin-bottom: 1.4rem;
+  }
+
+  .learning strong {
     display: block;
-  }
-
-  .step {
-    margin-bottom: 1.8rem;
-  }
-
-  .step strong {
-    display: block;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.25rem;
   }
 </style>
 
@@ -136,26 +130,18 @@ title: Online Quotation System
     <img src="/assets/img/onlinequotation.png" alt="Online Quotation System">
   </div>
 
-  <!-- SYSTEM DIAGRAM -->
-  <div class="diagram">
-    <img src="/assets/img/onlinequotation-flow.png" alt="Quotation system architecture">
-    <div class="diagram-caption">
-      Mobile-first, low-code quotation system optimized for speed, adoption, and parallel scale
-    </div>
-  </div>
-
   <!-- THE CHALLENGE -->
   <section class="project-section">
     <div class="label">The challenge</div>
     <p>
-      A rapidly growing Southeast Asian home services marketplace (3× YoY growth) was being
-      slowed by a paper-based quotation process that took <strong>7–14 days</strong>.
-      Customers routinely booked with faster competitors, and <strong>50% of complaints</strong>
+      A rapidly growing Southeast Asian home services marketplace (3× YoY growth) was being slowed
+      by a paper-based quotation process that took <strong>7–14 days</strong>.
+      Customers routinely booked with faster competitors, and <strong>50% of customer complaints</strong>
       were tied directly to quote wait times.
     </p>
     <p>
-      The constraint: over <strong>90% of 200+ installers</strong> had never used digital tools.
-      Any solution had to work for skilled craftspeople—not just tech-savvy users.
+      The key constraint: over <strong>90% of 200+ installers</strong> had never used digital tools.
+      Any solution had to work immediately for non-technical users.
     </p>
   </section>
 
@@ -163,57 +149,56 @@ title: Online Quotation System
   <section class="project-section">
     <div class="label">The approach</div>
 
-    <div class="step">
-      <strong>1. Diagnose before building</strong>
-      Applied Lean Six Sigma principles and interviewed 30+ installers to map the end-to-end
-      quotation flow. The bottleneck wasn’t motivation—it was the absence of a system designed
-      for real on-site conditions.
-    </div>
+    <p><strong>1. Diagnose before building</strong><br>
+      Applied Lean Six Sigma principles and interviewed 30+ installers to map the full quotation flow.
+      The bottleneck wasn’t effort—it was the absence of a system designed for on-site reality.
+    </p>
 
-    <div class="step">
-      <strong>2. Make a deliberate build-vs-buy trade-off</strong>
+    <p><strong>2. Make a deliberate build-vs-buy trade-off</strong><br>
       A custom build was estimated at six months—too slow under revenue pressure.
-      I chose to adapt existing infrastructure: repurposed the internal pricing engine and
-      layered a mobile-friendly, low-code interface on top. MVP shipped in <strong>3 weeks</strong>.
-    </div>
+      I repurposed the internal pricing engine and layered a mobile-friendly, low-code interface on top.
+      MVP shipped in <strong>3 weeks</strong>.
+    </p>
 
-    <div class="step">
-      <strong>3. Optimize for adoption, not elegance</strong>
-      Delivered a Progressive Web App installers could pin to their home screen, embedded
-      conditional pricing logic to eliminate manual errors, and added human-in-the-loop
-      review before quotes were sent—balancing automation with trust.
-    </div>
+    <p><strong>3. Optimize for adoption, not elegance</strong><br>
+      Delivered a PWA installers could pin to their home screen, embedded conditional pricing logic,
+      and added human review checkpoints to balance automation with trust.
+    </p>
   </section>
 
   <!-- IMPACT -->
   <section class="project-section">
     <div class="label">Impact</div>
 
-    <div class="metrics">
-      <div class="metric">
-        <strong>&lt;1 hr</strong>
-        Quote turnaround
-      </div>
-      <div class="metric">
-        <strong>96%</strong>
-        Faster lead time
-      </div>
-      <div class="metric">
-        <strong>$5M</strong>
-        Revenue unlocked
-      </div>
-      <div class="metric">
-        <strong>0</strong>
-        Quote-related complaints
-      </div>
-    </div>
-
-    <p>
-      The system became the foundation for scaling installation services and later informed
-      automation efforts across scheduling and payments.
-    </p>
-  </section>
-
-  <p><a href="/projects/">← Back to all projects</a></p>
-
-</main>
+    <table class="impact-table">
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Before</th>
+          <th>After</th>
+          <th>Improvement</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Quote Time (Lead Time)</strong></td>
+          <td>7–14 Days</td>
+          <td>&lt; 1 Hour</td>
+          <td class="impact-highlight">96% Reduction</td>
+        </tr>
+        <tr>
+          <td><strong>Customer Satisfaction</strong></td>
+          <td>43.5%</td>
+          <td>83%</td>
+          <td class="impact-highlight">+90%</td>
+        </tr>
+        <tr>
+          <td><strong>Complaints (Quote Time)</strong></td>
+          <td>50%</td>
+          <td>0%</td>
+          <td class="impact-highlight">Eliminated</td>
+        </tr>
+        <tr>
+          <td><strong>Revenue Unlocked</strong></td>
+          <td>N/A</td>
+          <
