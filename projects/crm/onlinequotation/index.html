@@ -2,134 +2,218 @@
 layout: default
 title: Online Quotation System
 ---
+
 <style>
-    /* page-only styling (safe) */
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 3rem 2rem;
-    }
+  /* page-only styling */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+  }
 
-    .hero {
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 6px 24px rgba(0,0,0,0.12);
-      margin-bottom: 3rem;
-    }
+  .hero {
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.12);
+    margin: 2.5rem 0 3.5rem;
+  }
 
-    .hero img {
-      width: 100%;
-      display: block;
-    }
+  .hero img {
+    width: 100%;
+    display: block;
+  }
 
-    .tag {
-      display: inline-block;
-      background: rgba(0,0,0,0.06);
-      padding: 0.4rem 1rem;
-      border-radius: 20px;
-      font-size: 0.85rem;
-      margin-bottom: 1rem;
-    }
+  .tag {
+    display: inline-block;
+    background: rgba(0,0,0,0.06);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
 
-    .subtitle {
-      color: #666;
-      font-size: 1.1rem;
-      margin-bottom: 3rem;
-    }
+  .subtitle {
+    color: #666;
+    font-size: 1.1rem;
+    margin: 0.75rem 0 2.5rem;
+  }
 
-    .project-section {
-  border-left: 3px solid #e5e5e5;
-  padding-left: 1.5rem;
-  margin-bottom: 3rem;
-    }
+  .project-section {
+    border-left: 3px solid #e5e5e5;
+    padding-left: 1.5rem;
+    margin-bottom: 3.5rem;
+  }
 
-    .label {
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      font-size: 0.75rem;
-      color: #999;
-      margin-bottom: 0.5rem;
-    }
+  .label {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 0.75rem;
+    color: #999;
+    margin-bottom: 0.5rem;
+  }
 
-    .metrics {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-      gap: 1rem;
-      margin: 1.5rem 0;
-    }
+  .skills-list {
+    margin: 1.5rem 0 2.5rem;
+    padding-left: 1.2rem;
+  }
 
-    .metric {
-      background: #f8f8f8;
-      padding: 1rem;
-      border-radius: 8px;
-      text-align: center;
-    }
+  .skills-list li {
+    margin-bottom: 0.6rem;
+  }
 
-    .metric strong {
-      font-size: 1.6rem;
-      display: block;
-    }
-  </style>
+  .diagram {
+    margin: 2.5rem 0 3.5rem;
+    text-align: center;
+  }
 
-  <main class="container">
-    <span class="tag">CRM & Workflow Automation</span>
+  .diagram img {
+    max-width: 720px;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 6px 22px rgba(0,0,0,0.1);
+  }
 
-    <h1>Online Quotation System</h1>
-    <p class="subtitle">
-      Turning a manual, slow quotation process into a self-serve system that scaled with growth.
+  .diagram-caption {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 0.75rem;
+  }
+
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  .metric {
+    background: #f8f8f8;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+
+  .metric strong {
+    font-size: 1.6rem;
+    display: block;
+  }
+
+  .step {
+    margin-bottom: 1.8rem;
+  }
+
+  .step strong {
+    display: block;
+    margin-bottom: 0.3rem;
+  }
+</style>
+
+<main class="container">
+
+  <span class="tag">CRM & Workflow Automation</span>
+
+  <h1>From 14 Days to 1 Hour: Building a Quotation System That Scales</h1>
+
+  <p class="subtitle">
+    Reduced quote turnaround by <strong>96%</strong>, unlocked <strong>$5M in revenue</strong>,
+    and scaled quoting to <strong>200+ installers</strong> without adding headcount.
+  </p>
+
+  <!-- WHAT THIS PROJECT DEMONSTRATES -->
+  <section class="project-section">
+    <div class="label">What this project demonstrates</div>
+    <ul class="skills-list">
+      <li>Strategic build-vs-buy decision making under revenue pressure</li>
+      <li>Designing systems for non-technical users at scale</li>
+      <li>Low-code + backend reuse to ship 10× faster</li>
+      <li>Operational automation as a growth lever, not just efficiency</li>
+      <li>Change management across 200+ service providers</li>
+    </ul>
+  </section>
+
+  <!-- HERO IMAGE -->
+  <div class="hero">
+    <img src="/assets/img/onlinequotation.png" alt="Online Quotation System">
+  </div>
+
+  <!-- SYSTEM DIAGRAM -->
+  <div class="diagram">
+    <img src="/assets/img/onlinequotation-flow.png" alt="Quotation system architecture">
+    <div class="diagram-caption">
+      Mobile-first, low-code quotation system optimized for speed, adoption, and parallel scale
+    </div>
+  </div>
+
+  <!-- THE CHALLENGE -->
+  <section class="project-section">
+    <div class="label">The challenge</div>
+    <p>
+      A rapidly growing Southeast Asian home services marketplace (3× YoY growth) was being
+      slowed by a paper-based quotation process that took <strong>7–14 days</strong>.
+      Customers routinely booked with faster competitors, and <strong>50% of complaints</strong>
+      were tied directly to quote wait times.
     </p>
+    <p>
+      The constraint: over <strong>90% of 200+ installers</strong> had never used digital tools.
+      Any solution had to work for skilled craftspeople—not just tech-savvy users.
+    </p>
+  </section>
 
-    <!-- HERO IMAGE -->
-    <div class="hero">
-      <img src="/assets/img/onlinequotation.png" alt="Online Quotation System">
+  <!-- THE APPROACH -->
+  <section class="project-section">
+    <div class="label">The approach</div>
+
+    <div class="step">
+      <strong>1. Diagnose before building</strong>
+      Applied Lean Six Sigma principles and interviewed 30+ installers to map the end-to-end
+      quotation flow. The bottleneck wasn’t motivation—it was the absence of a system designed
+      for real on-site conditions.
     </div>
 
-    <!-- PROBLEM -->
-    <section class="project-section">
-      <div class="label">The problem</div>
-      <p>
-        During rapid growth, installation partners relied on spreadsheets and phone calls.
-        Quotes took days, customers dropped off, and revenue was leaking at the most critical moment.
-      </p>
-    </section>
+    <div class="step">
+      <strong>2. Make a deliberate build-vs-buy trade-off</strong>
+      A custom build was estimated at six months—too slow under revenue pressure.
+      I chose to adapt existing infrastructure: repurposed the internal pricing engine and
+      layered a mobile-friendly, low-code interface on top. MVP shipped in <strong>3 weeks</strong>.
+    </div>
 
-    <!-- APPROACH -->
-    <section class="project-section">
-      <div class="label">My approach</div>
-      <p>
-        Instead of waiting for a long product roadmap, I mapped the bottlenecks, reused existing tools,
-        and shipped a lightweight self-serve quotation flow that partners could adopt immediately.
-      </p>
-    </section>
+    <div class="step">
+      <strong>3. Optimize for adoption, not elegance</strong>
+      Delivered a Progressive Web App installers could pin to their home screen, embedded
+      conditional pricing logic to eliminate manual errors, and added human-in-the-loop
+      review before quotes were sent—balancing automation with trust.
+    </div>
+  </section>
 
-    <!-- IMPACT -->
-    <section class="project-section">
-      <div class="label">Impact</div>
+  <!-- IMPACT -->
+  <section class="project-section">
+    <div class="label">Impact</div>
 
-      <div class="metrics">
-        <div class="metric">
-          <strong>&lt;1 hr</strong>
-          Quote turnaround
-        </div>
-        <div class="metric">
-          <strong>96%</strong>
-          Faster lead time
-        </div>
-        <div class="metric">
-          <strong>$5M</strong>
-          Revenue unlocked
-        </div>
-        <div class="metric">
-          <strong>0</strong>
-          Customer complaints
-        </div>
+    <div class="metrics">
+      <div class="metric">
+        <strong>&lt;1 hr</strong>
+        Quote turnaround
       </div>
+      <div class="metric">
+        <strong>96%</strong>
+        Faster lead time
+      </div>
+      <div class="metric">
+        <strong>$5M</strong>
+        Revenue unlocked
+      </div>
+      <div class="metric">
+        <strong>0</strong>
+        Quote-related complaints
+      </div>
+    </div>
 
-      <p>
-        This system became the foundation for scaling installation services without adding headcount.
-      </p>
-    </section>
+    <p>
+      The system became the foundation for scaling installation services and later informed
+      automation efforts across scheduling and payments.
+    </p>
+  </section>
 
-    <p><a href="/projects/">← Back to all projects</a></p>
-  </main>
+  <p><a href="/projects/">← Back to all projects</a></p>
 
+</main>
