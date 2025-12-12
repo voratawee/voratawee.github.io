@@ -39,30 +39,46 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
 </section>
 
 <section class="project-section">
-  <div class="label">The approach</div>
+  <div class="label">The approach — Build for humans, automate for scale</div>
 
-  <p><strong>1. Diagnose before building</strong><br>
-    Applied Lean Six Sigma to map the full quotation flow and identify system friction.
+  <p>
+    I approached this problem as a <strong>systems constraint</strong>, not a people issue.
+    The goal wasn’t to build a perfect tool — it was to remove a revenue bottleneck
+    under real operational pressure.
+  </p>
+
+  <p><strong>1. Reframe the problem as a systems failure</strong><br>
+    Using Lean Six Sigma principles, I interviewed 30+ installers and mapped the entire
+    quotation lifecycle end-to-end. The core insight was clear:
+    installers wanted to move fast, but the workflow forced manual calculation,
+    office callbacks, and multi-day delays.
   </p>
 
   <p><strong>2. Make a deliberate build-vs-buy trade-off</strong><br>
-    Reused the internal pricing engine and layered a low-code interface to ship in 3 weeks.
+    A custom-built solution was estimated at 6 months — a timeline the business
+    couldn’t afford. I chose to reuse the existing internal pricing engine and
+    layer a low-code interface on top, reducing time-to-impact from 6 months to
+    3 weeks while preserving future extensibility.
   </p>
 
-  <p><strong>3. Design for adoption at scale</strong><br>
-    Mobile-first PWA, conditional logic pricing, automated workflows, and parallel usage.
+  <p><strong>3. Design for adoption before optimization</strong><br>
+    The system was built mobile-first so installers could quote on-site.
+    Conditional logic eliminated manual math, automated workflows removed
+    back-and-forth, and a lightweight review step preserved quality without
+    slowing execution.
   </p>
 
-  <p><strong>4. Scale through people</strong><br>
-    Trained 200+ installers and created feedback loops to drive trust and adoption.
+  <p><strong>4. Leverage platform scale instead of infrastructure</strong><br>
+    By using a cloud-native low-code platform, each installer operated independently
+    with parallel usage across 200+ users. Email delivery, storage, and reliability
+    were handled by the platform — eliminating DevOps overhead entirely.
   </p>
-</section>
 
-<section class="project-section">
-  <div class="label">Architecture</div>
-  <div class="diagram">
-    <img src="/assets/img/onlinequotation-flow.png" alt="System architecture">
-  </div>
+  <p><strong>5. Close the loop with change management</strong><br>
+    I personally trained 200+ installers, created repeatable onboarding materials,
+    and ran feedback loops to refine edge cases. Adoption followed once installers
+    saw faster quoting, quicker payments, and higher job throughput.
+  </p>
 </section>
 
 <section class="project-section">
