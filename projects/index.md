@@ -100,7 +100,7 @@ permalink: /projects/
       </a>
 
       <div class="project-card">
-        <img src="/assets/img/placeholder.png" alt="Payment Automation">
+        <img src="/assets/img/payment.png" alt="Payment Automation">
         <div class="project-card-content">
           <h3>Payment Automation</h3>
           <p>Automated vendor payment flow to reduce manual reconciliation and delays.</p>
@@ -116,7 +116,7 @@ permalink: /projects/
 
     <div class="project-grid">
       <div class="project-card">
-        <img src="/assets/img/placeholder.png" alt="30-second mood check-in">
+        <img src="/assets/img/30-sec-ai-mood-checkin.png" alt="30-second mood check-in">
         <div class="project-card-content">
           <h3>30-Second Mood Check-In</h3>
           <p>AI-powered emotional check-in designed for daily use with minimal friction.</p>
