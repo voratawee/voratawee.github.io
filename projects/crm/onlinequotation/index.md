@@ -4,11 +4,6 @@ title: Online Quotation System
 ---
 
 <style>
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 3rem 2rem;
-}
 
 .tag {
   display: inline-block;
@@ -112,7 +107,7 @@ title: Online Quotation System
 
 </style>
 
-<div class="container">
+<div class="page">
 
 <span class="tag">CRM & Workflow Automation</span>
 
