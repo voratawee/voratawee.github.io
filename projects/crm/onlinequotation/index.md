@@ -126,14 +126,13 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <div class="label">I. Challenge: Latency and Friction</div>
 
   <p>
-  At a rapidly growing Southeast Asian Home & Living E-commerce Platform, the traditional manual,
-  paper-based customer quotation process for installation services created severe operational friction.
+  At a rapidly growing Southeast Asian Home & Living E-commerce Platform, the traditional manual, paper-based customer quotation process for installation services created severe operational friction.
   </p>
 
   <ul>
-    <li><strong>Problem:</strong> Quote delivery time averaged <strong>7–14 days</strong>, double the 7-day industry standard.</li>
-    <li><strong>Impact:</strong> This latency caused <strong>50% of all customer complaints</strong> and revenue loss from abandoned leads.</li>
-    <li><strong>Constraint:</strong> Over <strong>90% of our 200+ service providers</strong> lacked digital tools, forcing a system solution that was simple for the user but complex in its automation.</li>
+    <li><strong>Problem:</strong> Quote delivery time averaged 7–14 days, double the 7-day industry standard..</li>
+    <li><strong>Impact:</strong> This latency caused 50% of all customer complaints and revenue loss from abandoned leads.</li>
+    <li><strong>Constraint:</strong> Over 90% of our 200+ service providers lacked digital tools, forcing a system solution that was simple for the user but complex in its automation.</li>
   </ul>
 
   <div class="image-placeholder">
@@ -145,9 +144,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <div class="label">II. Strategic Pivot: Build vs. Integrate</div>
 
   <p>
-  The internal development team scoped a custom tool at <strong>6+ months</strong>.
-  Recognizing this delay as a strategic business failure, I led a critical pivot:
-  <strong>Integrate existing systems to build a Minimum Viable Platform (MVP) in weeks.</strong>
+  The internal development team scoped a custom tool at 6+ months. Recognizing this delay as a strategic business failure, I led a critical pivot: Integrate existing systems to build a Minimum Viable Platform (MVP) in weeks.
   </p>
 
   <table class="impact-table">
@@ -176,8 +173,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <div class="label">III. Architecture: Workflow Automation via API Backbone</div>
 
   <p>
-  I architected a solution to automate the entire workflow by leveraging our core
-  <strong>Internal Pricing Engine API</strong>.
+  I architected a solution to automate the entire workflow by leveraging our core Internal Pricing Engine API.
   </p>
 
   <div class="image-placeholder">
@@ -185,9 +181,15 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   </div>
 
   <ol>
-    <li><strong>Frontend Abstraction (PWA):</strong> Low-code Progressive Web App enabling 90% adoption.</li>
-    <li><strong>Smart Rules Engine:</strong> Dynamic conditional logic invoking real-time pricing via API.</li>
-    <li><strong>API & Workflow Automation:</strong> Real-time pricing, persistence, and automated customer email delivery.</li>
+    <li><strong>Frontend Abstraction (PWA):</strong> I implemented a low-code platform as a Progressive Web App (PWA) interface. This solved the 90% adoption issue with a simple, mobile-first experience for providers.</li>
+    <li><strong>Smart Rules Engine:</strong> The form logic served as a dynamic Rules Engine. It processed inputs (e.g., room size, service type) and acted as a client to call the Internal Pricing Engine API for real-time calculation.</li>
+    <li><strong>API & Workflow Automation:</strong> The form logic served as a dynamic Rules Engine. It processed inputs (e.g., room size, service type) and acted as a client to call the Internal Pricing Engine API for real-time calculation.</li>
+    <ul>
+    <li><strong>Real-Time Pricing:</strong> Data is sent to the Internal Pricing API.</li>
+    <li><strong>Data Persistence:</strong> Finalized quote data is logged to the Internal Database via the API integration layer.</li>
+    <li><strong>Customer Communication:</strong> An automated engine triggers an instant quote email to the customer.</li>
+  </ul>
+
   </ol>
 
   <p>
@@ -197,6 +199,8 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
 
 <section class="project-section">
   <div class="label">IV. Quantified Impact and Platform Scaling</div>
+
+<p> The new system generated immediate, quantifiable results. I personally led the training for all 200+ service providers, ensuring 100% adoption and establishing feedback loops for platform maintenance.</p>
 
   <table class="impact-table">
     <tr>
@@ -209,7 +213,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
       <td>Quote Delivery Time</td>
       <td>14 Days</td>
       <td class="highlight">&lt;1 Hour</td>
-      <td class="highlight">96% Reduction</td>
+      <td>96% Reduction</td>
     </tr>
     <tr>
       <td>Customer Satisfaction</td>
@@ -240,12 +244,10 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <div class="label">V. Strategic Learnings: Platform Blueprint</div>
 
   <ol>
-    <li><strong>Technical Debt is Strategic:</strong> Low-code UI protected core API logic while shipping revenue fast.</li>
-    <li><strong>API Integration is Core:</strong> Created a scalable foundation for future service automation.</li>
-    <li><strong>Automation Requires Adoption:</strong> Training and trust were as critical as the system itself.</li>
+    <li><strong>Technical Debt is Strategic:</strong> Leveraging low-code for the UI while protecting the core Internal API logic was key to delivering $5M in revenue quickly.</li>
+    <li><strong>API Integration is Core:</strong> Success hinged on cleanly integrating with the existing Internal Pricing API, creating a scalable blueprint for automating all future service operations.</li>
+    <li><strong>Automation Requires Adoption:</strong> Change management and user training are mandatory. A functional system must be readily adopted by its users.</li>
   </ol>
 </section>
-
-<p><a href="/projects/">← Back to all projects</a></p>
 
 </div>
