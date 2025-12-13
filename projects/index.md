@@ -21,7 +21,7 @@ permalink: /projects/
 
 .category p {
   color: #666;
-  max-width: 600px;
+  max-width: 1100px;
   margin-bottom: 1.5rem;
 }
 
@@ -81,9 +81,9 @@ permalink: /projects/
 }
 </style>
 
-<section class="projects-section container">
+<section class="projects-section">
   <h1>Projects</h1>
-  <p style="color:#666;max-width:650px;">
+  <p style="color:#666;max-width:1100px;">
     A curated set of systems and products I’ve built—grouped by skill area to show how I think, build, and scale.
   </p>
 
