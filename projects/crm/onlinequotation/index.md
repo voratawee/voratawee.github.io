@@ -248,10 +248,6 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
     </tr>
   </table>
 
-  <div class="image-placeholder">
-    [Place Image 3 Here: The "After" State – Harmonious Flow & Growth]
-  </div>
-
 <h2>V. Learnings: Platform Blueprint</h2>
 
   <ol>
