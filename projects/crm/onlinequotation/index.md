@@ -127,7 +127,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <img src="/assets/img/onlinequotation.png" alt="Online Quotation System">
 </div>
 
-  <p><strong>What this project demonstrates</strong></p>
+  <h3>What this project demonstrates</h3>
   <ul class="skills-list">
     <li>Strategic build-vs-buy decision making under revenue pressure</li>
     <li>Designing systems for non-technical users at scale</li>
