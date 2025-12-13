@@ -172,7 +172,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   </p>
 
   <div class="image-placeholder">
-    [Place Image 2 Here: Architectural Diagram – The Automated Flow]
+    <img src="/assets/img/onlinequotation-flow.png" alt="Online Quotation System Flow">
   </div>
 
   <ol>
