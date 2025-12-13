@@ -21,7 +21,6 @@ permalink: /projects/
 
 .category p {
   color: #666;
-  max-width: 1100px;
   margin-bottom: 1.5rem;
 }
 
@@ -30,7 +29,6 @@ permalink: /projects/
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.5rem;
-  justify-content: start;
 }
 
 /* Card */
@@ -39,7 +37,6 @@ permalink: /projects/
   border-radius: 12px;
   overflow: hidden;
   background: #fff;
-  max-width: 1100px;
   transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
 }
 
@@ -83,9 +80,7 @@ permalink: /projects/
 
 <section class="projects-section">
   <h1>Projects</h1>
-  <p style="color:#666;max-width:1100px;">
-    A curated set of systems and products I’ve built—grouped by skill area to show how I think, build, and scale.
-  </p>
+
 
   <!-- ================= API & PLATFORMS ================= -->
   <div class="category">
