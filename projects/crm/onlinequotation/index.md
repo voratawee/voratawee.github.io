@@ -107,8 +107,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <img src="/assets/img/onlinequotation.png" alt="Online Quotation System">
 </div>
 
-<section class="project-section">
-  <div class="label">What this project demonstrates</div>
+  <p><strong>What this project demonstrates</strong></p>
   <ul class="skills-list">
     <li>Strategic build-vs-buy decision making under revenue pressure</li>
     <li>Designing systems for non-technical users at scale</li>
@@ -116,11 +115,10 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
     <li>Operational automation as a growth lever</li>
     <li>Change management across 200+ service providers</li>
   </ul>
-</section>
-
-<div class="divider"></div>
 
 <p><strong>Technologies:</strong> JotForm (Low-code/Frontend Abstraction), Progressive Web App (PWA), Internal Pricing Engine (API), Conditional Logic Engine, Automated Email Workflows, Internal Database Integration.</p>
+
+<div class="divider"></div>
 
 <p><strong>I. Challenge: Latency and Friction</strong></p>
 
