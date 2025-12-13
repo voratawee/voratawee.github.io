@@ -107,7 +107,7 @@ title: Online Quotation System
 
 </style>
 
-<div class="page">
+<div>
 
 <span class="tag">CRM & Workflow Automation</span>
 
