@@ -241,7 +241,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
 </section>
 
 <section class="project-section">
-  <div class="label">V. Strategic Learnings: Platform Blueprint</div>
+  <div class="label">V. Learnings: Platform Blueprint</div>
 
   <ol>
     <li><strong>Technical Debt is Strategic:</strong> Leveraging low-code for the UI while protecting the core Internal API logic was key to delivering $5M in revenue quickly.</li>
