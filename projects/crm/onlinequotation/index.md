@@ -122,7 +122,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
 
 <p><strong>Technologies:</strong> JotForm (Low-code/Frontend Abstraction), Progressive Web App (PWA), Internal Pricing Engine (API), Conditional Logic Engine, Automated Email Workflows, Internal Database Integration.</p>
 
-<p><strong>I. Challenge: Latency and Friction</p>
+<p><strong>I. Challenge: Latency and Friction</strong></p>
 
   <p>
   At a rapidly growing Southeast Asian Home & Living E-commerce Platform, the traditional manual, paper-based customer quotation process for installation services created severe operational friction.
@@ -137,10 +137,8 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <div class="image-placeholder">
     [Place Image 1 Here: The "Before" State – Chaos and Bottlenecks]
   </div>
-</section>
 
-<section class="project-section">
-  <div class="label">II. Strategic Pivot: Build vs. Integrate</div>
+ <p><strong>II. Strategic Pivot: Build vs. Integrate</strong></p>
 
   <p>
   The internal development team scoped a custom tool at 6+ months. Recognizing this delay as a strategic business failure, I led a critical pivot: Integrate existing systems to build a Minimum Viable Platform (MVP) in weeks.
@@ -166,10 +164,8 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
       <td>Decoupled the UI from the logic; focused resources on API integration.</td>
     </tr>
   </table>
-</section>
 
-<section class="project-section">
-  <div class="label">III. Architecture: Workflow Automation via API Backbone</div>
+  <p><strong>III. Architecture: Workflow Automation via API Backbone</strong></p>
 
   <p>
   I architected a solution to automate the entire workflow by leveraging our core Internal Pricing Engine API.
@@ -194,10 +190,8 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <p>
   <strong>The flow:</strong> Installer → PWA → Conditional Logic → Internal Pricing API → Automated Quote Email.
   </p>
-</section>
 
-<section class="project-section">
-  <div class="label">IV. Quantified Impact and Platform Scaling</div>
+ <p><strong>IV. Quantified Impact and Platform Scaling</strong></p>
 
 <p> The new system generated immediate, quantifiable results. I personally led the training for all 200+ service providers, ensuring 100% adoption and establishing feedback loops for platform maintenance.</p>
 
@@ -237,16 +231,13 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <div class="image-placeholder">
     [Place Image 3 Here: The "After" State – Harmonious Flow & Growth]
   </div>
-</section>
 
-<section class="project-section">
-  <div class="label">V. Learnings: Platform Blueprint</div>
+<p><strong>V. Learnings: Platform Blueprint</strong></p>
 
   <ol>
     <li><strong>Technical Debt is Strategic:</strong> Leveraging low-code for the UI while protecting the core Internal API logic was key to delivering $5M in revenue quickly.</li>
     <li><strong>API Integration is Core:</strong> Success hinged on cleanly integrating with the existing Internal Pricing API, creating a scalable blueprint for automating all future service operations.</li>
     <li><strong>Automation Requires Adoption:</strong> Change management and user training are mandatory. A functional system must be readily adopted by its users.</li>
   </ol>
-</section>
 
 </div>
