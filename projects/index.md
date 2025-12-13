@@ -39,7 +39,7 @@ permalink: /projects/
   border-radius: 12px;
   overflow: hidden;
   background: #fff;
-  max-width: 550px;
+  max-width: 1100px;
   transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
 }
 
