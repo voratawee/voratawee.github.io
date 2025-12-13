@@ -28,8 +28,9 @@ permalink: /projects/
 /* Grid */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 1.5rem;
+  justify-content: start;
 }
 
 /* Card */
@@ -38,6 +39,7 @@ permalink: /projects/
   border-radius: 12px;
   overflow: hidden;
   background: #fff;
+  max-width: 320px;
   transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
 }
 
