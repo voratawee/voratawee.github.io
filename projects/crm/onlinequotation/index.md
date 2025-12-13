@@ -122,8 +122,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
 
 <p><strong>Technologies:</strong> JotForm (Low-code/Frontend Abstraction), Progressive Web App (PWA), Internal Pricing Engine (API), Conditional Logic Engine, Automated Email Workflows, Internal Database Integration.</p>
 
-<section class="project-section">
-  <div class="label">I. Challenge: Latency and Friction</div>
+<p><strong>I. Challenge: Latency and Friction</p>
 
   <p>
   At a rapidly growing Southeast Asian Home & Living E-commerce Platform, the traditional manual, paper-based customer quotation process for installation services created severe operational friction.
