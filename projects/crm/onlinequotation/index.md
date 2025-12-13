@@ -59,15 +59,6 @@ title: Online Quotation System
   margin: 4rem 0;
 }
 
-.image-placeholder {
-  margin: 2rem 0;
-  padding: 1.5rem;
-  border: 1px dashed #ccc;
-  background: #fafafa;
-  color: #666;
-  font-style: italic;
-  text-align: center;
-}
 
 .impact-table {
   width: 100%;
@@ -90,6 +81,35 @@ title: Online Quotation System
 .highlight {
   font-weight: 700;
 }
+
+  /* Architecture / system diagrams */
+.diagram {
+  max-width: 820px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background: #fafafa;
+  border-radius: 16px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.12);
+}
+
+.diagram img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Supporting visuals (before / after) */
+.supporting-image {
+  max-width: 640px;
+  margin: 3rem auto;
+}
+
+.supporting-image img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
 </style>
 
 <div class="container">
@@ -120,7 +140,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
 
 <div class="divider"></div>
 
-<p><strong>I. Challenge: Latency and Friction</strong></p>
+<h2>I. Challenge: Latency and Friction</h2>
 
   <p>
   At a rapidly growing Southeast Asian Home & Living E-commerce Platform, the traditional manual, paper-based customer quotation process for installation services created severe operational friction.
@@ -136,7 +156,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
     [Place Image 1 Here: The "Before" State – Chaos and Bottlenecks]
   </div>
 
- <p><strong>II. Strategic Pivot: Build vs. Integrate</strong></p>
+ <h2>II. Strategic Pivot: Build vs. Integrate</h2>
 
   <p>
   The internal development team scoped a custom tool at 6+ months. Recognizing this delay as a strategic business failure, I led a critical pivot: Integrate existing systems to build a Minimum Viable Platform (MVP) in weeks.
@@ -163,15 +183,17 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
     </tr>
   </table>
 
-  <p><strong>III. Architecture: Workflow Automation via API Backbone</strong></p>
+  <h2>III. Architecture: Workflow Automation via API Backbone</h2>
 
   <p>
   I architected a solution to automate the entire workflow by leveraging our core Internal Pricing Engine API.
   </p>
 
-  <div class="image-placeholder">
-    <img src="/assets/img/onlinequotation-flow.png" alt="Online Quotation System Flow">
-  </div>
+<div class="diagram">
+  <img src="/assets/img/onlinequotation-flow.png"
+       alt="System architecture showing installer PWA, conditional logic engine, internal pricing API, and automated quote email">
+</div>
+
 
   <ol>
     <li><strong>Frontend Abstraction (PWA):</strong> I implemented a low-code platform as a Progressive Web App (PWA) interface. This solved the 90% adoption issue with a simple, mobile-first experience for providers.</li>
@@ -189,7 +211,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   <strong>The flow:</strong> Installer → PWA → Conditional Logic → Internal Pricing API → Automated Quote Email.
   </p>
 
- <p><strong>IV. Quantified Impact and Platform Scaling</strong></p>
+ <h2>IV. Quantified Impact and Platform Scaling</h2>
 
 <p> The new system generated immediate, quantifiable results. I personally led the training for all 200+ service providers, ensuring 100% adoption and establishing feedback loops for platform maintenance.</p>
 
@@ -230,7 +252,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
     [Place Image 3 Here: The "After" State – Harmonious Flow & Growth]
   </div>
 
-<p><strong>V. Learnings: Platform Blueprint</strong></p>
+<h2>V. Learnings: Platform Blueprint</h2>
 
   <ol>
     <li><strong>Technical Debt is Strategic:</strong> Leveraging low-code for the UI while protecting the core Internal API logic was key to delivering $5M in revenue quickly.</li>
