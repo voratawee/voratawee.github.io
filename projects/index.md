@@ -27,8 +27,15 @@ permalink: /projects/
 /* Grid */
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: 1fr;
   gap: 1.5rem;
+  width: 100%;
+}
+
+@media (min-width: 860px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Card */
@@ -38,6 +45,9 @@ permalink: /projects/
   overflow: hidden;
   background: #fff;
   transition: transform 0.25s ease, box-shadow 0.25s ease, opacity 0.25s ease;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card img {
@@ -49,6 +59,9 @@ permalink: /projects/
 
 .project-card-content {
   padding: 1rem 1.25rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-card h3 {
