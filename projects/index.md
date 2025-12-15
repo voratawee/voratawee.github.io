@@ -7,7 +7,7 @@ permalink: /projects/
 <style>
 /* ===== Projects layout ===== */
 .projects-section {
-  margin-top: 1.5rem;
+  margin-top: 0;
 }
 
 .category {
