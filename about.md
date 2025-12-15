@@ -11,6 +11,11 @@ permalink: /about/
   line-height: 1.4;
 }
 
+.about-content h1 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
 .about-content p {
   font-size: 0.95rem;
   line-height: 1.4;
@@ -33,6 +38,8 @@ permalink: /about/
 </style>
 
 <div class="about-content">
+<h1>About me</h1>
+
 ### Engineer. MBA. Founder.
 
 **From Bangkok to Silicon Valley dreams — building AI for wellness.**
