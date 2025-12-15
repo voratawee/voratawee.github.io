@@ -4,6 +4,35 @@ title: About
 permalink: /about/
 ---
 
+<style>
+/* About page styling */
+.about-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.about-content p {
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-content h3 {
+  font-size: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.about-content ul {
+  font-size: 1.05rem;
+}
+
+.about-content li {
+  margin-bottom: 0.6rem;
+}
+</style>
+
+<div class="about-content">
+
 ### Engineer. MBA. Founder.
 
 **From Bangkok to Silicon Valley dreams — building AI for wellness.**
@@ -31,7 +60,9 @@ Today, I’m a founder and a mother building products that help people thrive. I
 
 ---
 
-**Let’s connect**  
+**Let's connect**  
 - Email: [vora.tawee@gmail.com](mailto:vora.tawee@gmail.com)  
 - LinkedIn: [https://www.linkedin.com/in/voranun-t/](https://www.linkedin.com/in/voranun-t/)
 - BloomPal: [https://bloompal-wellness.com/](https://bloompal-wellness.com/)
+
+</div>

@@ -3,7 +3,7 @@ layout: case-study
 title: Online Quotation System
 ---
 
-<style>
+<style> 
 
 .tag {
   display: inline-block;
