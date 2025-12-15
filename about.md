@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<h1>About Me</h1>
+
 ### Engineer. MBA. Founder.
 
 **From Bangkok to Silicon Valley dreams — building AI for wellness.**
