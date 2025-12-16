@@ -109,7 +109,7 @@ title: Online Quotation System
 
 <div>
 
-<span class="tag">CRM & Workflow Automation</span>
+<span class="tag">API & Platform Systems</span>
 
 <h1>From 14 Days to 1 Hour: Building a Quotation System That Scales</h1>
 
