@@ -118,7 +118,6 @@ permalink: /projects/
         </a>
       </div>
     </div>
-  </div>
 
   <!-- ================= AI / ML ================= -->
   <div class="category">
