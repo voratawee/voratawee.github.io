@@ -142,7 +142,7 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
   </p>
 
   <ul>
-    <li><strong>Problem:</strong> Quote delivery time averaged 7–14 days, double the 7-day industry standard..</li>
+    <li><strong>Problem:</strong> Quote delivery time averaged 7–14 days, double the 7-day industry standard.</li>
     <li><strong>Impact:</strong> This latency caused 50% of all customer complaints and revenue loss from abandoned leads.</li>
     <li><strong>Constraint:</strong> Over 90% of our 200+ service providers lacked digital tools, forcing a system solution that was simple for the user but complex in its automation.</li>
   </ul>
