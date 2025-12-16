@@ -89,6 +89,12 @@ permalink: /projects/
 .project-grid:hover .project-card:hover {
   opacity: 1;
 }
+
+  /* ===== TEMPORARY HIDE ===== */
+.is-hidden {
+  display: none;
+}
+
 </style>
 
 <section class="projects-section">
@@ -136,7 +142,9 @@ permalink: /projects/
   </div>
 
   <!-- ================= PROCESS OPTIMIZATION ================= -->
-  <div class="category">
+  <div class="category is-hidden">
+  <!-- Hidden until case study is finalized -->
+
     <h2>Process Optimization & Scale</h2>
     <p>Turning messy operations into repeatable systems that teams actually use.</p>
 
@@ -152,7 +160,9 @@ permalink: /projects/
   </div>
 
   <!-- ================= BLOOMPAL ================= -->
-  <div class="category">
+  <div class="category is-hidden">
+  <!-- Hidden until case study is finalized -->
+
     <h2>BloomPal — AI for Wellness</h2>
     <p>Founder-led case studies from building and scaling an AI companion for mental wellness.</p>
 
