@@ -160,8 +160,7 @@ Automated vendor payment flow to reduce manual reconciliation and delays.
   I resolved the conflict by framing the short-term option as accepting escalating
   <a href="https://archetypegrowth.com/insights/operational-debt-the-silent-killer-for-middle-market-companies/"
      target="_blank" rel="noopener noreferrer">
-     Operational Debt
-  </a>.
+     Operational Debt</a>.
   I used an Automation ROI model to demonstrate that the long-term investment would yield exponential returns:
   eliminating all manual labor, mitigating vendor risk, and handling triple the future transaction volume
   without adding headcount. This data-driven approach secured consensus for the strategic platform shift.
