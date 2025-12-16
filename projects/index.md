@@ -97,7 +97,7 @@ permalink: /projects/
 
 </style>
 
-<section class="projects-section">
+<section class="projects-section wrap">
   <h1>Projects</h1>
 
 
