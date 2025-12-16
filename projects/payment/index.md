@@ -175,7 +175,7 @@ Automated vendor payment flow to reduce manual reconciliation and delays.
   </p>
 
 <div class="diagram">
-  <img src="/assets/img/onlinequotation-flow.png"
+  <img src="/assets/img/payment-flow.png"
        alt="System architecture showing installer PWA, conditional logic engine, internal pricing API, and automated quote email">
 </div>
 
@@ -236,8 +236,6 @@ Automated vendor payment flow to reduce manual reconciliation and delays.
     <li><strong>Architecting for Future Load:</strong> The shift to daily API-driven processing (instead of batch processing) ensured the payment platform could absorb a 3x volume increase without failure—a core component of platform design.</li>
     <li><strong>End-to-End Program Ownership:</strong> Leading this initiative required acting as a Program Manager: defining ambiguous scope, designing the technical flow (ETL/API), creating QA protocols, and managing cross-organizational stakeholder alignment.</li>
   </ol>
-
-</div>
 
 <div class="divider"></div>
 
