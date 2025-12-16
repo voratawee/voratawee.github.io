@@ -192,8 +192,8 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
 
   <ol>
     <li><strong>Frontend Abstraction (PWA):</strong> I implemented a low-code platform as a Progressive Web App (PWA) interface. This solved the 90% adoption issue with a simple, mobile-first experience for providers.</li>
-    <li><strong>Smart Rules Engine:</strong> The form logic served as a dynamic Rules Engine. It processed inputs (e.g., room size, service type) and acted as a client to call the Internal Pricing Engine API for real-time calculation.</li>
-    <li><strong>API & Workflow Automation:</strong> The form logic served as a dynamic Rules Engine. It processed inputs (e.g., room size, service type) and acted as a client to call the Internal Pricing Engine API for real-time calculation.</li>
+    <li><strong>Smart Rules Engine:</strong> The form was engineered as a dynamic Rules Engine. It parsed inputs (e.g., room size, service type) and acted as a client to call the Internal Pricing Engine API for real-time calculation, eliminating human error.</li>
+    <li><strong>API & Workflow Automation:</strong> The process was automated end-to-end:</li>
     <ul>
     <li><strong>Real-Time Pricing:</strong> Data is sent to the Internal Pricing API.</li>
     <li><strong>Data Persistence:</strong> Finalized quote data is logged to the Internal Database via the API integration layer.</li>
