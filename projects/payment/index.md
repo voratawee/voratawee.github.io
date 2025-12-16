@@ -183,8 +183,8 @@ Automated vendor payment flow to reduce manual reconciliation and delays.
   <ol>
     <li><strong>ETL Pipeline Design:</strong> I designed the Extract, Transform, Load (ETL) pipeline to pull approved payment data daily from the Accounting system. The transformation logic handled unique vendor ID & currency formatting and compliance checks.</li>
     <li><strong>API Coordination:</strong> The pipeline fed standardized payment requests via an API Gateway to our banking partner's API. This shift enabled daily processing, replacing weekly batches.</li>
-    <li><strong>QA and Scenario Testing:</strong>I personally led the rigorous QA and testing process, developing a comprehensive suite of test scenarios (edge cases, failure modes, reconciliation checks) to ensure transactional integrity and compliance before rollout.</li>
-    <li><strong>Program Management:</strong>I established clear documentation, weekly check-ins, and governance structures to coordinate Engineering, Accounting (reconciliation), and Operations, ensuring a successful, unified rollout.</li>
+    <li><strong>QA and Scenario Testing:</strong> I personally led the rigorous QA and testing process, developing a comprehensive suite of test scenarios (edge cases, failure modes, reconciliation checks) to ensure transactional integrity and compliance before rollout.</li>
+    <li><strong>Program Management:</strong> I established clear documentation, weekly check-ins, and governance structures to coordinate Engineering, Accounting (reconciliation), and Operations, ensuring a successful, unified rollout.</li>
   </ol>
 
 
