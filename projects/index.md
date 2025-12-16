@@ -115,6 +115,7 @@ permalink: /projects/
           <h3>Payment Automation</h3>
           <p>Automated vendor payment flow to reduce manual reconciliation and delays.</p>
         </div>
+        </a>
       </div>
     </div>
   </div>
