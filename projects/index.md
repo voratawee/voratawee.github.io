@@ -109,7 +109,7 @@ permalink: /projects/
         </div>
       </a>
 
-      <div class="project-card">
+      <a href="/projects/payment/" class="project-card">
         <img src="/assets/img/payment.png" alt="Payment Automation">
         <div class="project-card-content">
           <h3>Payment Automation</h3>
