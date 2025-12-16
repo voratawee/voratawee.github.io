@@ -154,7 +154,19 @@ Automated vendor payment flow to reduce manual reconciliation and delays.
 
  <ol>
     <li><strong>Discovery:</strong> I conducted a Time and Motion Study across the entire payment lifecycle, identifying a bottleneck: Weekly batch payments.</li>
-    <li><strong>Conflict Resolution:</strong> When the team split between immediate manual process refinement and automation, I resolved the conflict by framing the short-term option as accepting escalating [Operational Debt](https://archetypegrowth.com/insights/operational-debt-the-silent-killer-for-middle-market-companies/). I used an Automation ROI model to demonstrate that the long-term investment would yield exponential returns: eliminating all manual labor, mitigating vendor risk, and handling triple the future transaction volume without adding headcount. This data-driven approach secured consensus for the strategic platform shift.</li>
+    <li>
+  <strong>Conflict Resolution:</strong>
+  When the team split between immediate manual process refinement and automation,
+  I resolved the conflict by framing the short-term option as accepting escalating
+  <a href="https://archetypegrowth.com/insights/operational-debt-the-silent-killer-for-middle-market-companies/"
+     target="_blank" rel="noopener noreferrer">
+     Operational Debt
+  </a>.
+  I used an Automation ROI model to demonstrate that the long-term investment would yield exponential returns:
+  eliminating all manual labor, mitigating vendor risk, and handling triple the future transaction volume
+  without adding headcount. This data-driven approach secured consensus for the strategic platform shift.
+</li>
+
 
   <h2>III. Architecture: ETL and API Orchestration</h2>
 
@@ -214,7 +226,7 @@ Automated vendor payment flow to reduce manual reconciliation and delays.
   </table>
   
 <ol>
-    <li><strong>Scaling Success:</strong> The solution was immediately adopted and scaled across over 10 internal startups, serving as the organizational blueprint for financial operations.</li>
+    <p><strong>Scaling Success:</strong> The solution was immediately adopted and scaled across over 10 internal startups, serving as the organizational blueprint for financial operations.</p>
 </ol>
 
 <h2>V. Leadership Learnings: Program and Platform Skills</h2>
