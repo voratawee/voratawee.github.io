@@ -147,10 +147,6 @@ and scaled quoting to <strong>200+ installers</strong> without adding headcount.
     <li><strong>Constraint:</strong> Over 90% of our 200+ service providers lacked digital tools, forcing a system solution that was simple for the user but complex in its automation.</li>
   </ul>
 
-  <div class="image-placeholder">
-    [Place Image 1 Here: The "Before" State – Chaos and Bottlenecks]
-  </div>
-
  <h2>II. Strategic Pivot: Build vs. Integrate</h2>
 
   <p>
