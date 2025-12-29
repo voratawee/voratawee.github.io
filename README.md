@@ -6,7 +6,7 @@ I lead cross-functional programs from ambiguity to measurable outcomes.
 Live site: https://voratawee.github.io/
 
 ## Featured work
-- BloomPal (AI wellness MVP — React + Django): https://bloompal-wellness.com/
+- BloomPal (AI wellness MVP — React + Django): https://beta.bloompal-wellness.com/
 - Portfolio projects: https://voratawee.github.io/projects/
 
 ## What I’m working on now
